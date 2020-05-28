@@ -1,0 +1,143 @@
+.navbar{
+    background-color: #01579B !important ;
+}
+.nav-link{
+    font-weight: bold !important;
+    color: #ffffff !important;
+}
+.fa-shopping-cart,.fa-user-circle{
+    font-size: 32px !important;
+}
+
+.mainCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card1,.card2,.card3{
+    box-shadow: 2px 3px 4px #01579B;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 300px;
+    height: 70px;
+}
+
+.fa-truck,.fa-headphones,.fa-thumbs-o-up{
+   font-size: 50px !important;
+   margin-right: 10px;
+    color:#01579B !important ;
+}
+h3{
+    color:#01579B ;
+}
+
+.newArrivals{
+    margin-top: 50px;
+}
+
+.heading{
+    text-align: center;
+    color: #01579B;
+    font-weight: bold;
+}
+
+.heading > h1{
+    text-shadow: 3px 4px 5px #01579B;
+}
+
+.card{
+    width: 220px !important;
+    height: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-text{
+    font-weight: bold;
+}
+
+.btn-primary{
+    width: 100%;
+    color: #ffffff;
+}
+
+
+form{
+    padding: 10px;
+    margin: 10px auto;
+    width: 500px;
+
+}
+input{
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #01579B;
+}
+input:focus{
+    border-color: #01579B;
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    color: #fff;
+    background-color: #01579B;
+}
+
+input.email{
+    background-image: url("https://image.flaticon.com/icons/svg/561/561127.svg");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 40px;
+}
+
+input.password{
+    background-image: url("https://cdn1.iconfinder.com/data/icons/materia-basic-vol-2/24/009_069_lock_password_secure_trust-128.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    padding: 10px 10px 10px 40px;
+}
+.center{
+    text-align: center;
+}
+fieldset{
+    border-radius: 5px;
+    border: 1px solid #01579B;
+}
+legend{
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    color:#01579B;
+    background-color: darkgrey ;
+
+
+}
+
+
+
+
+.footer{
+    width: 100%;
+    background-color:   #01579B;
+    height: 100%;
+}
+.footer > div{
+    text-align: center !important;
+    align-items: center;
+}
+h4{
+    color: #fff;
+}
+.innerfooter{
+    color: #fff;
+}
